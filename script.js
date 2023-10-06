@@ -1,4 +1,7 @@
-let lastname = document.getElementByTagName("input")[1];
+
 function getFormvalue() {
-return lastname.value;
+	 let firstNameInput = document.getElementsByTagName("input")[0];
+     let lastNameInput = document.getElementsByTagName("input")[1];
+
+  alert(`${firstNameInput.value} ${lastNameInput.value}`);
 }
